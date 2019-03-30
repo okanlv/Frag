@@ -6,6 +6,7 @@ __pycache__/
 # Folders
 /data
 /log
+dictionary_penn
 .idea
 
 # C extensions

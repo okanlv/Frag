@@ -82,7 +82,7 @@ parser.add_argument('--adv', action='store_false',
                     help='using adversarial regularization')
 parser.add_argument('--adv_bias', type=int, default=1000,
                     help='threshold for rare and popular words')
-parser.add_argument('--adv_lambda', type=int, default=0.02,
+parser.add_argument('--adv_lambda', type=float, default=0.02,
                     help='lambda')
 parser.add_argument('--adv_lr', type=float,  default=0.02,
                     help='adv learning rate')
